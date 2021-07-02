@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #4070F4;
+    --first-color: #FF781F;
     --second-color: #0E2431;
 }
 
@@ -319,7 +319,7 @@ img{
     }
 }
 /* ===== WORK =====*/
-.work{
+.mypieces{
     &__container{
         row-gap: 2rem;
     }
@@ -460,7 +460,7 @@ img{
             text-align: initial;
         }
     }
-    .work{
+    .mypieces{
         &__container{
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: repeat(2, 1fr);
