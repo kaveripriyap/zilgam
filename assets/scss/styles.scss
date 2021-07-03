@@ -241,8 +241,8 @@ img{
     }
 }
 
-/* ===== ABOUT =====*/
-.about{
+/* ===== PROJECT =====*/
+.project{
     &__container{
         row-gap: 2rem;
         text-align: center;
@@ -441,7 +441,7 @@ img{
         }
     }
 
-    .about{
+    .project{
         &__container{
             grid-template-columns: repeat(2,1fr);
             align-items: center;
@@ -449,7 +449,9 @@ img{
         }
         &__img{
             & img{
-                width: 300px;
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
             }
         }
     }

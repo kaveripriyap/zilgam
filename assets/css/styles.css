@@ -248,8 +248,8 @@ img{
 
 }
 
-/* ===== ABOUT =====*/
-.about__container{
+/* ===== PROJECT =====*/
+.project__container{
   row-gap: 2rem;
   text-align: center;
   
@@ -261,15 +261,16 @@ img{
   padding: .75rem 2.5rem;
   margin-left: 250px;
 }
-.about__subtitle{
+.project__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
+.project__img{
   justify-self: center;
 }
-.about__img img{
-  width: 500px;
+.project__img img{
+  width: 100%;
   height: 200px;
+  overflow: hidden;
   border-radius: .5rem;
   align-self: center;
 }
@@ -444,13 +445,15 @@ img{
     bottom: 15%;
   }
 
-  .about__container, .gallery__container{
+  .project__container, .gallery__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     text-align: initial;
   }
-  .about__img img{
-    width: 300px;
+  .project__img img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
   }
   .mypieces__container{
     grid-template-columns: repeat(3, 1fr);
