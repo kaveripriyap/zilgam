@@ -237,7 +237,13 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 /* ===== STATS =====*/
-.stat
+.row {
+  display: flex;
+  text-align: center;
+  box-shadow: 0 0px 0px rgba(14,36,49,.15);
+  border-radius: .5rem;
+
+}
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
