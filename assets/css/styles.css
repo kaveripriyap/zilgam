@@ -445,6 +445,7 @@ img{
   .home__img{
     width: 500px;
     bottom: 9%;
+    border-radius: .5rem;
   }
 
   .about__container, .gallery__container{
