@@ -443,8 +443,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
-    bottom: 15%;
+    width: 500px;
+    bottom: 9%;
   }
 
   .about__container, .gallery__container{
