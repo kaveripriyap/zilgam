@@ -250,7 +250,7 @@ img{
 
 
 /* ===== ABOUT =====*/
-.about__container{
+.project__container{
   row-gap: 2rem;
   text-align: center;
   
@@ -263,18 +263,18 @@ img{
   margin-left: 250px; 
   justify-content: space-evenly; */
 }
-.about__subtitle{
+.project__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
+.project__img{
   justify-self: center;
   
 }
-.about__img img{
+.project__img img{
   
   
   border-radius: .5rem;
-  align-self: center;
+  align-self: center; 
 }
 
 /* ===== GALLERY =====*/
