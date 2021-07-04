@@ -79,7 +79,7 @@ img{
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  /*color: var(--first-color); */
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -225,17 +225,24 @@ img{
 }
 
 /*BUTTONS*/
+
 .button{
+  
   display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
+  /*background-color: rgb(235, 143, 68);*/
+  color: white;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: .5rem;
+  border-radius: .6rem;
+  border-color: black;
 }
+
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
+
+
+
 /* ===== STATS =====*/
 .row {
   display: flex;
@@ -245,7 +252,7 @@ img{
   background-color: black;
   color: #fff;
   justify-content: space-evenly;
-
+  
 }
 .column > .img{
   align-content: center;
