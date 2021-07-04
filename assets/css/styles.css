@@ -118,7 +118,7 @@ img{
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  /*box-shadow: 0 1px 4px rgba(146,161,176,.15);*/
 }
 .l-header > 
 
