@@ -269,7 +269,7 @@ img{
   align-content: center;
   align-self: center;
   padding: .75rem 2.5rem;
-  margin-left: 200px;
+  margin-left: 120px;
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
@@ -278,8 +278,8 @@ img{
   justify-self: center;
 }
 .about__img img{
-  width: 500px;
-  height: 200px;
+  max-width:fit-content;
+  max-height: fit-content;
   border-radius: .5rem;
   align-self: center;
 }
