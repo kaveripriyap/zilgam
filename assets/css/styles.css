@@ -265,11 +265,13 @@ img{
   
 }
 .cards {
+  
   display: flex;
   align-content: center;
   align-self: center;
   padding: .75rem 2.5rem;
-  margin-left: 250px;
+  margin-left: 125px; 
+  justify-content: center;
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
@@ -278,8 +280,12 @@ img{
   justify-self: center;
 }
 .about__img img{
+  max-width: fit-content;
+  max-height: fit-content;
+  /*
   width: 500px;
   height: 200px;
+  */
   border-radius: .5rem;
   align-self: center;
 }
