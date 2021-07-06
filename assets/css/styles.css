@@ -282,10 +282,17 @@ img{
 .about__img img{
   max-width: fit-content;
   max-height: fit-content;
-  /*
-  width: 500px;
-  height: 200px;
-  */
+  border-radius: .5rem;
+  align-self: center;
+}
+
+.about__img2 {
+  justify-self: center;
+}
+
+.about__img2 img{
+  max-width: 150px;
+  max-height: 150px;
   border-radius: .5rem;
   align-self: center;
 }
